@@ -1,3 +1,4 @@
+/*eslint-disable*/
 // import Blank from "./Blank";
 import ChatHead from "./ChatHead";
 import Messages from "./Messages";

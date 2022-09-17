@@ -25,5 +25,25 @@
    },
    // tailwind Settings
    "css.validate": false,
-   "tailwindCSS.emmetCompletions": true
+   "tailwindCSS.emmetCompletions": true,
+   "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#313131",
+      "activityBar.background": "#313131",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#787828",
+      "activityBarBadge.foreground": "#e7e7e7",
+      "commandCenter.border": "#e7e7e799",
+      "sash.hoverBorder": "#313131",
+      "statusBar.background": "#181818",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#313131",
+      "statusBarItem.remoteBackground": "#181818",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "titleBar.activeBackground": "#181818",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#18181899",
+      "titleBar.inactiveForeground": "#e7e7e799"
+   },
+   "peacock.color": "#181818"
 }

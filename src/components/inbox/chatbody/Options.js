@@ -1,3 +1,4 @@
+/*eslint-disable*/
 export default function Options() {
     return (
         <div className="flex items-center justify-between w-full p-3 border-t border-gray-300">

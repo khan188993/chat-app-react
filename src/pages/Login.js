@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import { Link } from "react-router-dom";
 import logoImage from "../assets/images/lws-logo-light.svg";
 import Error from "../components/ui/Error";

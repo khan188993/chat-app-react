@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import Blank from "../components/inbox/chatbody/Blank";
 import Navigation from "../components/inbox/Navigation";
 import Sidebar from "../components/inbox/Sidebar";

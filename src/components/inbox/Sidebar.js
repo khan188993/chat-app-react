@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import { useState } from "react";
 import ChatItems from "./ChatIItems";
 import Modal from "./Modal";

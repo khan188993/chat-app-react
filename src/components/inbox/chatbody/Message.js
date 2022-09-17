@@ -1,3 +1,4 @@
+/*eslint-disable*/
 export default function Message({ justify, message }) {
     return (
         <li className={`flex justify-${justify}`}>

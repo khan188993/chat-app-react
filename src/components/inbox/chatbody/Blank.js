@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import blankImage from "../../../assets/images/blank.svg";
 
 export default function Blank() {
