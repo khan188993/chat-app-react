@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
-
 export default function ChatItem({ avatar, name, lastMessage, lastTime }) {
     return (
-        <Link
+        <div
             className="flex cursor-pointer items-center border-b border-gray-300 px-3 py-2 text-sm transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none"
             to="/"
         >
@@ -14,6 +12,6 @@ export default function ChatItem({ avatar, name, lastMessage, lastTime }) {
                 </div>
                 <span className="ml-2 block text-sm text-gray-600">{lastMessage}</span>
             </div>
-        </Link>
+        </div>
     );
 }
