@@ -1,4 +1,3 @@
-/*eslint-disable*/
 // import Blank from "./Blank";
 import { useParams } from "react-router-dom";
 import { useGetMessagesQuery } from "../../../features/messages/messagesApi";
@@ -9,12 +8,7 @@ import Options from "./Options";
 
 export default function ChatBody() {
     const { id } = useParams();
-    const {
-        data: messages,
-        isLoading,
-        isError,
-        error,
-    } = useGetMessagesQuery(id);
+    const { data: messages, isLoading, isError, error } = useGetMessagesQuery(id);
 
     // decide what to render
     let content = null;
@@ -34,15 +28,14 @@ export default function ChatBody() {
             <>
                 <ChatHead message={messages[0]} />
                 <Messages messages={messages} />
-                <Options />
+                <Options info={messages[0]} />
             </>
         );
     }
 
     return (
         <div className="w-full lg:col-span-2 lg:block">
-            <div className="w-full grid conversation-row-grid">{content}</div>
+            <div className="conversation-row-grid grid w-full">{content}</div>
         </div>
     );
 }
-
