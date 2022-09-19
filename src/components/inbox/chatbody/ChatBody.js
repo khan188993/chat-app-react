@@ -1,3 +1,4 @@
+/*eslint-disable */
 // import Blank from "./Blank";
 import { useParams } from "react-router-dom";
 import { useGetMessagesQuery } from "../../../features/messages/messagesApi";
@@ -8,7 +9,8 @@ import Options from "./Options";
 
 export default function ChatBody() {
     const { id } = useParams();
-    const { data: messages, isLoading, isError, error } = useGetMessagesQuery(id);
+    const { data, isLoading, isError, error } = useGetMessagesQuery(id);
+    const { messages, totalCount } = data || {};
 
     // decide what to render
     let content = null;
